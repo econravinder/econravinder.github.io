@@ -1,0 +1,27 @@
+# --- Site settings ---
+title: Ravinder
+description: >-
+  Ravinder, Ph.D. student in Quantitative Economics at the
+  Indian Statistical Institute, Delhi.
+author: Ravinder
+email: ravinder20r@isid.ac.in
+
+# For a user/organization page (econravinder.github.io) the site lives at the
+# domain root, so url is the bare domain and baseurl is empty.
+# (baseurl would be "/repo-name" only for a project page.)
+url: "https://econravinder.github.io"
+baseurl: ""
+
+# --- Plugins ---
+# jekyll-sitemap auto-generates /sitemap.xml at build time and keeps
+# <lastmod> accurate. GitHub Pages supports this plugin natively.
+plugins:
+  - jekyll-sitemap
+
+# --- Build settings ---
+# Files/folders to keep out of the build (and out of the sitemap).
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
